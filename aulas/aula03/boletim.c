@@ -57,10 +57,10 @@ int main() {
     printf("---------------------------------------\n");
     printf("Aluno: %s\n", nome);
     printf("Disciplina    |  A1  |  A2  |  A3  | MF\n");
-    printf("%s            | %.2f | %.2f | %.2f | %.2f\n", MT1, a1_MT1, a2_MT1, a3_MT1, mf_MT1);
-    printf("%s            | %.2f | %.2f | %.2f | %.2f\n", MT2, a1_MT2, a2_MT2, a3_MT2, mf_MT2);
-    printf("%s            | %.2f | %.2f | %.2f | %.2f\n", MT3, a1_MT3, a2_MT3, a3_MT3, mf_MT3);
-    printf("%s            | %.2f | %.2f | %.2f | %.2f\n", MT4, a1_MT4, a2_MT4, a3_MT4, mf_MT4);
+    printf("%s            | %5.2f | %5.2f | %5.2f | %5.2f\n", MT1, a1_MT1, a2_MT1, a3_MT1, mf_MT1);
+    printf("%s            | %5.2f | %5.2f | %5.2f | %5.2f\n", MT2, a1_MT2, a2_MT2, a3_MT2, mf_MT2);
+    printf("%s            | %5.2f | %5.2f | %5.2f | %5.2f\n", MT3, a1_MT3, a2_MT3, a3_MT3, mf_MT3);
+    printf("%s            | %5.2f | %5.2f | %5.2f | %5.2f\n", MT4, a1_MT4, a2_MT4, a3_MT4, mf_MT4);
 
     return 0;
 }
