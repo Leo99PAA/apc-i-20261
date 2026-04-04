@@ -11,7 +11,7 @@ int main () {
     char tipo_sanguinio[3];
     printf("       Ficha de triagem        \n==============================\n");
     printf("Digite o nome do paciente:\n ");
-    scanf("%49s", nome);
+    fgets(nome, sizeof(nome), stdin);
     printf("Digite a idade do paciente:\n ");
     scanf("%i", &idade);
     printf("Digite o sexo do paciente (M/F):\n ");
@@ -22,7 +22,7 @@ int main () {
     scanf("%f", &peso);
     printf("Digite o tipo sanguíneo do paciente:\n ");
     scanf("%3s", tipo_sanguinio);
-    printf("Dados do Paciente:\n==============================\nNome: %s\nIdade: %i\nSexo: %c\nAltura: %.2f\nPeso: %.1f\nTipo Sanguinio: %s\n==============================\n",nome, idade, sexo, altura, peso, tipo_sanguinio);
+    printf("\n\nDados do Paciente:\n==============================\nNome: %s\nIdade: %i\nSexo: %c\nAltura: %.2f\nPeso: %.1f\nTipo Sanguinio: %s\n==============================\n",nome, idade, sexo, altura, peso, tipo_sanguinio);
     
 
     return 0;

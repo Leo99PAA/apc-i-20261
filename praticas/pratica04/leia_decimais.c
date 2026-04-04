@@ -6,7 +6,7 @@ int main(){
     float nota1, nota2;
     float media;
     
-    printf("Bem Vindo ao Sistema de Notas!\n============================\nDigite a nota com ate duas \ncasas decimamis.\n============================\n");
+    printf("Bem vindo ao Sistema de Notas!\n==============================\nDigite a nota com ate duas \ncasas decimamis.\n==============================\n");
     printf("Digite a primeira nota: ");
     scanf("%f", &nota1);
     printf("Digite a segunda nota: ");
